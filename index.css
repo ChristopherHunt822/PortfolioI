@@ -1,0 +1,284 @@
+/* .container {
+position: relative;
+min-height: 100%;
+
+} */
+
+body {
+  /* margin: 3rem 10rem 0 10rem;
+  padding: 7rem 0 0 0; */
+  /* text-align: center; */
+  background-color: rgba(9, 38, 87, 0.918);
+  width: auto;
+}
+
+.nav {
+  color: rgb(224, 224, 224);
+  width: auto;
+  height: 20px;
+  font-size: 23px;
+  letter-spacing: 2px;
+  justify-content: end;
+  position: relative;
+  top: 30px;
+}
+
+.navbar .nav-item {
+  padding: 50px;
+  justify-content: center;
+}
+
+#text {
+  color: white;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: -500px;
+}
+
+#text h1 {
+  font-size: 100px;
+  text-shadow: 2px 2px #0c0c0c;
+}
+
+#background img {
+  width: 100%;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+#about {
+  height: 850px;
+  width: 1200px;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+.about-text img {
+  border-radius: 5%;
+}
+
+.about-text {
+  position: relative;
+  height: 600px;
+  top: -100px;
+  width: auto;
+  line-height: 2;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  border: 7px solid rgb(111, 116, 133);
+}
+.about-text h1 {
+  color: black;
+  font-size: 40px;
+}
+
+.about-text h2 {
+  font-size: 20px;
+  padding: 40px;
+  font-weight: bold;
+}
+.about-text p {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 50px;
+}
+
+.about p {
+  padding: 1rem;
+}
+.profile img {
+  border-radius: 5%;
+}
+
+.container-sm {
+  width: 78%;
+  height: 260px;
+  background-color: rgb(111, 116, 133);
+  border: 7px solid rgb(224, 224, 224);
+  border-radius: 10px;
+  position: relative;
+  top: -350px;
+}
+
+.container-sm h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.container-sm .btn {
+  background-color: rgb(224, 224, 224);
+  color: rgba(9, 38, 87, 0.918);
+  position: relative;
+  top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#skills {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  justify-content: center;
+  color: white;
+  position: relative;
+  top: -300px;
+}
+
+#skills h2 {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 4px;
+  padding: 50px;
+  font-weight: bolder;
+}
+
+#skills .skillsRow {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#myCarousel {
+  max-width: 640px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  top: -200px;
+}
+#myCarousel img {
+  margin: auto;
+  border-radius: 10px;
+}
+
+#myCarousel h1 {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 4px;
+}
+
+.featured {
+  margin: 0rem 0 15rem 0;
+  border-radius: 10px;
+  position: relative;
+  top: -200px;
+}
+.featured img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  margin: 1rem;
+}
+
+#contact {
+  background-color: rgb(111, 116, 133);
+  height: 620px;
+  width: 1200px;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+  border-radius: 10px;
+}
+
+#contact h1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 4px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  position: relative;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: rgba(9, 38, 87, 0.918);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 20px;
+  width: 30%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: rgba(9, 38, 87, 0.918);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#footer {
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  margin-top: 10rem;
+}
+
+#footer p {
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  color: rgba(9, 38, 87, 0.918);
+}
+
+.navbuttons {
+  border-style: ridge none;
+}
+.navbuttons a {
+  margin: 2rem;
+}
+
+#footer .socialmedia {
+  text-align: center;
+  display: inline-block;
+  padding: 90px;
+  position: relative;
+  top: -100px;
+  color: black;
+}
